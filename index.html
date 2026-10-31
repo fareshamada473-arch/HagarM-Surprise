@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#17112d"><meta name="description" content="A little night-sky surprise for Hagar Mohamed.">
+<title>For Hagar Mohamed 💕</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#ffb4d5;--pale:#fff0f7;--glass:rgba(22,12,37,.62)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--pale);font-family:Poppins,system-ui,sans-serif;background:#17112d;min-height:100vh}body:before{content:"";position:fixed;inset:0;background:linear-gradient(180deg,rgba(15,9,32,.18),rgba(15,8,29,.72)),url('assets/night-garden.png') center 42%/cover no-repeat;z-index:-2}body:after{content:"";position:fixed;inset:0;background:radial-gradient(ellipse at 50% 20%,transparent 15%,rgba(9,5,23,.22) 80%);pointer-events:none;z-index:-1}.wrap{width:min(880px,92%);margin:auto;padding:38px 0 50px;text-align:center}.eyebrow{letter-spacing:.28em;text-transform:uppercase;font-size:.68rem;color:#ffd4e7;opacity:.9}.lotus{font-size:2.2rem;filter:drop-shadow(0 0 12px #ff9dcc);margin:15px 0 4px}.title{font:clamp(3.2rem,10vw,6.6rem)/1.1 'Great Vibes',cursive;color:#ffd4e8;text-shadow:0 0 25px #fa8fc1;margin:0 0 8px}.subtitle{font:italic 1rem 'Playfair Display',serif;color:#ffe8f3;margin:0 0 28px}.card{border:1px solid rgba(255,190,220,.72);background:var(--glass);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-radius:28px;padding:clamp(22px,5vw,38px);box-shadow:0 0 35px #170d2c66, inset 0 0 24px #ffb4d50c;margin:18px auto;max-width:700px}.intro{font:italic 1.3rem 'Playfair Display',serif;margin:0 0 10px}.hint{font-size:.85rem;color:#f5cddd;margin:0 0 22px}.btn{border:1px solid #ffd0e5;border-radius:999px;padding:13px 24px;color:#35172e;background:linear-gradient(135deg,#ffd8ea,#f49bc5);font:500 .95rem Poppins;box-shadow:0 0 24px #ffacd755;cursor:pointer;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 0 32px #ffacd799}.music{display:none;margin-top:24px;text-align:left;align-items:center;gap:14px}.music.show{display:flex}.disc{flex:0 0 64px;width:64px;height:64px;border-radius:50%;background:radial-gradient(circle,#fce6f2 0 7%,#a84e87 8% 20%,#261833 21% 43%,#e5a4c8 44% 47%,#25142e 48%);box-shadow:0 0 18px #ffacd755;animation:spin 8s linear infinite;animation-play-state:paused}.disc.playing{animation-play-state:running}@keyframes spin{to{transform:rotate(360deg)}}.track{flex:1;min-width:0}.track strong{display:block;font:italic 1.25rem 'Playfair Display',serif}.track span{font-size:.8rem;color:#eec8dd}.yt{width:100%;aspect-ratio:16/9;border:0;border-radius:14px;margin-top:18px;background:#120b22}.message{font:italic clamp(1.02rem,2.7vw,1.3rem)/1.9 'Playfair Display',serif;color:#fff0f7}.message p{margin:0 0 19px}.message em{color:#ffb4d5;font-style:normal}.divider{color:#ffb4d5;letter-spacing:.5rem;margin:20px 0}.signoff{font:2rem 'Great Vibes',cursive;color:#ffb4d5;margin-top:20px}.footer{font-size:.72rem;letter-spacing:.08em;color:#f1cfe0a8;margin-top:25px}.floating{position:fixed;bottom:-25px;color:#ffc5df;opacity:0;pointer-events:none;animation:rise 8s linear forwards;z-index:3}@keyframes rise{0%{transform:translateY(0) rotate(0);opacity:0}10%{opacity:.65}90%{opacity:.5}100%{transform:translateY(-110vh) rotate(30deg);opacity:0}}@media(min-width:700px){.wrap{padding-top:52px}.card{padding:38px 50px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="eyebrow">a little piece of the night sky, just for you</div>
+  <div class="lotus" aria-hidden="true">🪷</div>
+  <h1 class="title">Hagar Mohamed <span style="font-family:Poppins,sans-serif;font-size:.42em;vertical-align:middle">💕</span></h1>
+  <p class="subtitle">Some people make the world feel a little brighter.</p>
+  <section class="card" aria-label="Music surprise">
+    <p class="intro">A little song, chosen for you ✨</p>
+    <p class="hint">Tap below, take a breath, and let the moment begin.</p>
+    <button class="btn" id="startBtn">Open your little surprise ♡</button>
+    <div class="music" id="musicPanel">
+      <div class="disc" id="disc" aria-hidden="true"></div>
+      <div class="track"><strong>Those Eyes</strong><span>New West · picked just for you</span></div>
+      <span aria-hidden="true" style="font-size:1.5rem">♫</span>
+    </div>
+    <div id="playerSlot"></div>
+  </section>
+  <section class="card message" aria-label="A message for Hagar">
+    <div class="divider">✧ 🪷 ✧</div>
+    <p>You are the most <em>strong, talented, and genius</em> person I have ever met. 💕👀</p>
+    <p>You are the person who fills my life with <em>passion, optimism, joy, and happiness.</em> 🥰💞</p>
+    <p>Thank you so much for everything you have done, everything you are doing, and everything you will do for me and for everyone in your life.</p>
+    <p>I will never forget it for the rest of my life. And you will always be <em>number one</em> in every choice. 💕❤️</p>
+    <div class="divider">♡ ✧ ♡</div>
+    <div class="signoff">Always wishing you the brightest stars ✨</div>
+  </section>
+  <div class="footer">MADE WITH CARE · FOR HAGAR MOHAMED 💕</div>
+</main>
+<script>
+const btn=document.getElementById('startBtn');
+btn.addEventListener('click',()=>{
+  document.getElementById('musicPanel').classList.add('show');
+  document.getElementById('disc').classList.add('playing');
+  const slot=document.getElementById('playerSlot');
+  if(!slot.querySelector('iframe')){
+    const frame=document.createElement('iframe');
+    frame.className='yt';frame.title='Those Eyes by New West';
+    frame.allow='autoplay; encrypted-media; picture-in-picture; web-share';frame.allowFullscreen=true;
+    frame.src='https://www.youtube-nocookie.com/embed/GDND88fqt1o?autoplay=1&rel=0';
+    slot.appendChild(frame);
+    btn.textContent='Your song is ready ♡';
+  } else { slot.querySelector('iframe').scrollIntoView({behavior:'smooth',block:'center'}); }
+  for(let i=0;i<8;i++) setTimeout(()=>{const e=document.createElement('span');e.className='floating';e.textContent=['♡','✧','🪷','♥'][Math.floor(Math.random()*4)];e.style.left=Math.random()*95+'vw';e.style.fontSize=(14+Math.random()*18)+'px';e.style.animationDuration=(6+Math.random()*5)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),11500)},i*280);
+});
+</script>
+</body></html>
